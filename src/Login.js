@@ -1,7 +1,7 @@
 import classes from './Login.module.css';
 
 var client_id = '683c5b20459c495983696c311fbac615';
-var redirect_uri = 'http://localhost:3000';
+var redirect_uri = 'https://admirable-trifle-f5c2bc.netlify.app/';
 
 let generateRandomString = (num) =>
   (Math.random() + 1).toString(36).substring(num);
