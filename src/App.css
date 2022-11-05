@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.notFooter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 5rem);
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.mainPages {
+    display: flex;
+    flex-direction: column;
+    flex: 0.85;
+    height: 100%;
+    overflow: auto;
+}

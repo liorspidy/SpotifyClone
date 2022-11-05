@@ -1,0 +1,17 @@
+.eng_name {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.heb_name {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eng_name:hover,
+.heb_name:hover {
+    color: white;
+}

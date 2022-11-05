@@ -1,0 +1,148 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 5.5rem;
+    border-top: 1px solid #282828;
+    background-color: #171717;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.currentTrackBox {
+    width: 28rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.currentTrack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem;
+    width: max-content;
+    margin-right: 3rem;
+    min-width: 12rem;
+}
+
+.currentTrackDetails {
+    margin-left: 1rem;
+    max-width: 18vw;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.artists {
+    font-size: 0.7rem;
+    font-family: SpotifyFontLight;
+    color: #A9A9A9;
+    margin-top: 0.5rem;
+}
+
+.artists:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.currentImg {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.currentTrackIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    flex-wrap: nowrap;
+}
+
+.playerIcon {
+    color: #A9A9A9;
+    margin: 0 0.5rem;
+    font-size: 1.2rem !important;
+}
+
+.footerMainButtons {
+    display: flex;
+    left: 0%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+    width: 35vw;
+    min-width: 18rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.footerMainButtonsIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 1.5rem !important;
+    color: #A9A9A9;
+}
+
+.footerMainButtonsIcon {
+    margin: 0 1rem;
+}
+
+.footerMainButtonsBackForward {
+    font-size: 1.8rem;
+    color: #A9A9A9;
+}
+
+.playerIcon:hover,
+.footerMainButtonsIcon:hover,
+.footerMainButtonsBackForward:hover {
+    color: white;
+}
+
+.PlayButton {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    margin: 0 1rem;
+    font-size: 2rem !important;
+    padding: 0.2rem;
+}
+
+.PlayButton:active {
+    scale: 0.94;
+}
+
+.title_heb_name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1rem;
+    margin-bottom: 0;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.title_eng_name {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.searchbar {
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 23rem;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.searchbar>input {
+    border: none;
+    font-size: 0.9rem;
+    width: 80%;
+}
+
+.searchbar>input:focus {
+    outline: none;
+}
+
+.searchbarIcon {
+    scale: 1.5;
+    margin-right: 0.5rem;
+    color: #121212;
+}

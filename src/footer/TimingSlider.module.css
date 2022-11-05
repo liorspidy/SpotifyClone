@@ -1,0 +1,22 @@
+.timingSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+}
+
+.slider {
+    min-width: 15rem;
+    margin: 0 0.5rem;
+}
+
+.timing {
+    color: #A9A9A9;
+    font-size: 0.7rem;
+    width: 2rem;
+    font-family: spotifyFontLight;
+}
+
+.slider:hover {
+    color: #1DB954;
+}

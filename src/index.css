@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: SpotifyFont;
+  letter-spacing: -0.5px;
+}
+
+@font-face {
+  font-family: SpotifyFont;
+  src: url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: SpotifyFontLight;
+  src: url(fonts/Gotham-Light.otf);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4D4D4D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}

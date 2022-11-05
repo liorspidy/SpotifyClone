@@ -1,0 +1,26 @@
+.volume {
+    width: 25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 3rem;
+}
+
+.playerIcon {
+    color: #A9A9A9;
+    margin: 0 0.5rem;
+    font-size: 1.2rem !important;
+}
+
+.playerIcon:hover {
+    color: white;
+}
+
+.slider {
+    margin: 0 0.2rem;
+}
+
+.slider:hover {
+    color: #1DB954;
+}

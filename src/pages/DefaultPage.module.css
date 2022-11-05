@@ -1,0 +1,45 @@
+.defaultPage {
+    background: linear-gradient(#1E1E1E, #121212);
+    width: 100%;
+    min-height: 70rem;
+    height: 100vh;
+    color: white;
+    font-size: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.headline {
+    margin-top: 1.3rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.headline:hover {
+    text-decoration: underline;
+}
+
+.seeall {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+.seeall:hover {
+    text-decoration: underline;
+}
+
+.rowTitles {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 1rem;
+}
